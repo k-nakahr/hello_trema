@@ -9,7 +9,7 @@ class HelloTrema < Trema::Controller
   end
 
   def switch_disconnected(datapath_id)
-    logger.info "Switch #{datapath_id.to_hex} is disconnected."
+    logger.info "Bye #{datapath_id.to_hex}"
   end
 
 end
